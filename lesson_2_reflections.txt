@@ -1,0 +1,5 @@
+// shows you which files are tracked
+git status
+
+What happens when you initialize a repository? Why do you need to do it?
+

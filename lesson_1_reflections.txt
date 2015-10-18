@@ -1,0 +1,40 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The diff allowed me to narrow down the possible loctions of the
+error that was introducted.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It could allow me to revert to specific time stamp, or help me
+to remember the reasoning behind modifications.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one 
+commit, while others, like Google Docs, treat each file separately?
+
+Non-code version control systems may not have related context.
+
+// copy the whole repository to a local space
+git clone URL
+
+// see commits
+git log
+// use q to exit log
+
+// get the diff between files
+get diff revisiona revisionb
+
+i.e.
+git diff df035382c41b4d0cda86a1aa30b53f15bef05b53 b0678b161fcf74467ed3a63110557e3d6229cfa6
+
+// How can you use the commands git log and git diff to view the history of files?
+above.
+
+//checking out a commit is getting a copy of a version
+git checkout 25ede836903881848fea811df5b687b59d962da3
+
+How might using version control make you more confident to make changes that could break something?
+I'm very confident with git, since I can easily identify exactly where my
+changes break the product...
+
+// Turn a directory into a new git directory
+git init
