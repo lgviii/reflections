@@ -1,5 +1,30 @@
 // shows you which files are tracked
 git status
 
-What happens when you initialize a repository? Why do you need to do it?
+//What happens when you initialize a repository? Why do you need to do it?
+Files are added to the staging area
 
+//How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staing area contains information that will go into your next commit. 
+It allows you to add multiple items to a commit, instead of commiting
+everything at the same time.
+
+//create a git repository in a directory with files
+git init
+
+//What is the head?
+the default name for the current commit
+
+//How do you check to see if you're in a git repository?
+git status
+
+//How to add a file to the staging area (in git status, these
+are marked as "changes to be comitted")?
+git add fileName.txt
+
+//How to write and quit in vi for a git comment
+:w
+:q
+
+// comments should be in the form of a verb
+i.e. add a cake recipe
